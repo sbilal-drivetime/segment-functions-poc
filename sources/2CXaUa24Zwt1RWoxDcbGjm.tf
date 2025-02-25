@@ -1,0 +1,21 @@
+import {
+  to = segment_source.id-2CXaUa24Zwt1RWoxDcbGjm
+  id = "2CXaUa24Zwt1RWoxDcbGjm"
+}
+
+resource "segment_source" "id-2CXaUa24Zwt1RWoxDcbGjm" {
+  enabled = false
+  labels  = null
+  metadata = {
+    id = "cQ8NOxeApJ"
+  }
+  name = "Google Ads"
+  settings = jsonencode({
+    accounts    = "1003835048,1195412219,1360481405,1809185086,2508494672,2561732882,2826488358,2930690368,3073981017,3122267539,3496180257,3821577125,3874815335,4139570811,4178223482,4243772821,4943082407,4387063470,5261076093,9391900623,5556855274,5644230435,6256164860,7569247313,9127145147,6678360556,8117470841,6869937727,5491305935,7377670142,7887240999,7814062694,4331147982,8078818170,9639393282,7991443009,6957312888,8183020180,9496102633"
+    createdAt   = "2022-09-27T18:40:06.930Z"
+    createdBy   = "andrew.carlson@silverrockinc.com"
+    displayName = "Andrew Carlson"
+    version     = 3
+  })
+  slug = "marketing_google_ads"
+}
